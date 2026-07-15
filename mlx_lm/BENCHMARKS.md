@@ -40,6 +40,15 @@ q4 | 60.72 | 1622.27 | 134.52 | 3.35 | mlx-community/Qwen3-4B-Instruct-2507-4bit
 - mlx 0.29.2.dev20251008+85a8824a8
 - mlx-lm 0.28.2
 - macOS 26.1
+  
+Precision | MMLU Pro | Prompt (2048) tok/sec | Generation (128) tok/sec | Memory GB | Repo
+--------- | -------- | ------------------- | ------------------------ | --------- | ----
+q4 | 60.72 | 615.28 | 44.62 | 3.30 | mlx-community/Qwen3-4B-Instruct-2507-4bit
+
+- Performance benchmark on 18GB M3 Pro
+- mlx 0.32.0
+- mlx-lm 0.31.3
+- macOS Sonoma 14.4
  
 </details>
 
